@@ -505,7 +505,7 @@ function drawFinalScreen() {
   fill(0, 0, 0, 200); rectMode(CORNER); rect(0, 0, width, height);
   textAlign(CENTER); 
   fill(0, 255, 255); textSize(32); text("GALACTIC MASTER!", width / 2, height / 2 - 80);
-  fill(255); textSize(16); text("You have solved the 12-Planet System.", width/2, height/2 - 40);
+  
   fill(255, 200, 100); text("Congrats!", width/2, height/2 + 10);
   fill(200); textSize(14); text("Thank you for taking the time to explore this minigame", width/2, height/2 + 40);
     fill(0, 255, 0); textSize(18); text("Press RESTART to play again or simply refresh the page.", width/2, height/2 + 130);
